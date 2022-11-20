@@ -1,0 +1,253 @@
+
+:root{
+    --c-main-Color:orangered;
+}
+.price , 
+.counter span,
+.header span,
+.nav-link:hover
+{
+    color: var(--c-main-Color) !important;
+}
+.btn
+{
+    background-color: var(--c-main-Color);
+}
+/* >>>>>>>>>>>>>>>>>> DIV HOME >>>>>>>>>>>> */
+.Home
+{
+    background-image: url(../images/1567665.webp);
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: cover;
+    color: white;
+  
+}
+.nav-link{
+    margin: 2px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 500 !important;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* >>>>>>>> Counter Div >>>>>>>>>>> */
+
+.counter span {
+    color: orangered;
+ font-size: 2rem;
+ font-weight: 700;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* >>>>>>>>>>>>Feautured>>>>>>>>>> */
+.card img{
+   width: 100%;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+    -o-transition: all 0.7s;
+}
+.card img:hover
+{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.badge{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* >>>>>>>>>>>connecting>>>>>>>>>>> */
+
+.connecting{
+    margin-top: 50px;
+    background-image: url(../images/cover-background-50.webp);
+}
+.customerImg , .customertext{
+    margin : 80px 0  ;
+    color: white;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* >>>>>>>>>>>>>>Agents>>>>>>>>>>> */
+.inner {
+    background-color: gainsboro;
+    padding: 15px;
+   position: relative;
+}
+.inner img
+{
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.inner span {
+    position: absolute;
+    top: 46px;
+    right: 22px;
+}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+/* >>>>>>>>>>>> footer >>>>>>>>>> */
+.Links a {
+    text-decoration: none;
+margin: 20px 10px;
+color: white !important;
+}
+
+.contact span,
+.contact i
+  {
+    margin-top: 15px;
+}
+.contact i{
+    color: var(--c-main-Color);
+    cursor: pointer;
+}
+
+.fa-facebook {
+   color: #243c64;
+  }
+  .fa-twitter{
+    color: #1DA1F2;
+  }
+  .fa-instagram {
+    color: #833AB4;
+  }
+  .fa-youtube{
+    color: #FF0000 ;
+  }
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+
+
+
+
+ /* >>>>>>>>>>>>RESPONSIVE>>>>>>>>>> */
+
+
+ @media only screen and (max-width: 767px) {
+    .Home {
+        height: 100vh !important;
+    }
+  .header img
+
+  {
+    width: 250px !important;
+    margin-top: 0 !important;
+  }
+  .header .row{
+    
+    margin: 0;
+    height: 80vh !important;
+    text-align: center;
+  }
+ 
+ 
+ .header .Search
+ {
+    justify-content: center;
+    align-items: center;
+   
+ 
+ }
+.card img{
+    width: 80%;
+ 
+}
+.imageCard{
+    text-align: center;
+}
+.card {
+    margin-top: 10px;
+    text-align: center;
+}
+.connecting img
+{
+  margin-top: 10px;
+  
+}
+.customertext{
+    margin: 0;
+}
+.inner{
+    margin: 10px;
+}
+.arrowButtons
+{
+    display: none;
+}
+.connecting{
+    background-image: url(../images/cover-background-50.webp);
+    background-position: center center;
+}
+ .header .rowReverse{
+    flex-direction: column-reverse !important;
+
+}
+
+.connecting .rowReverse{
+    flex-direction: column-reverse !important;
+}
+footer {
+    font-size: 0.8rem;
+}
+footer h3
+{
+    margin-top: 5px;
+    font-size: 1rem;
+}
+.Feautured h2{
+    text-align: center;
+}
+.centeralize {
+    width: 100%;
+    display: flex; 
+    justify-content: center; 
+   align-items: center;
+}
+.customerImg .centeralize{
+    text-align: center;
+}
+.navbar-nav{
+    background-color:black;
+    position: absolute;
+    top: 55px;
+    width: 90%;
+    text-align: center;
+    padding: 10px;
+
+}
+}
+
+
+ @media only screen and (max-width: 991px) {
+   
+ .connecting .rowReverse  img {
+    margin-top: 3rem !important;
+}
+} 
+
+
+ @media only screen and (min-width: 992px) {
+   
+.collapse ul li a{
+    min-width: max-content;
+}
+} 
+
+
+ /* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
